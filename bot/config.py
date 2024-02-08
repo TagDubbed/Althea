@@ -5,9 +5,9 @@ class Telegram:
     API_HASH = env.get("TELEGRAM_API_HASH", "9bcf49d320560e6623dc4764a666d8e0")
     OWNER_ID = int(env.get("OWNER_ID", 1019675595))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "lucy_jewel_bot")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6854815463:AAGSoZr-WwOoSriINbHxA1GGpDjesYXgb2I")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", 1019675595))
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "Althea_Lucy_bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6818014525:AAGQFjMNkIPV3sT21C94fkrhi2Z2Oy97WQA")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001990139196))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
